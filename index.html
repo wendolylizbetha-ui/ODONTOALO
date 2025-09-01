@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OdontoAloo - Alondra Oceguera Aispuro</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Portada -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>ODONTOALO</h1>
+        <p class="student-name">Alondra Oceguera Aispuro</p>
+        <p class="tagline">Estudiante de Odontología comprometida y en prácticas bajo supervisión de odontólogos certificados</p>
+        <p class="free">✨ Todos los procedimientos son <strong>GRATIS</strong> ✨</p>
+        <div class="buttons">
+          <a href="#cita" class="btn">Agendar Cita</a>
+          <a href="#about" class="btn secondary">Sobre mí</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="ODONTOALO.jpg" alt="Alondra Oceguera Aispuro">
+      </div>
+    </div>
+  </header>
+
+  <!-- Sobre mí -->
+  <section id="about" class="about">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy estudiante de odontología dedicada a aprender y brindar cuidado dental de calidad. 
+      Busco pacientes para mis prácticas clínicas, siempre bajo la supervisión de odontólogos certificados, garantizando seguridad y confianza.
+    </p>
+  </section>
+
+  <!-- Servicios -->
+  <section id="services" class="services">
+    <h2>Servicios Disponibles</h2>
+    <p class="free-service">Todos los procedimientos son <strong>GRATUITOS</strong></p>
+    <div class="cards">
+      <div class="card" data-desc="Eliminación de sarro y pulido dental, recomendado regularmente.">Limpieza Dental</div>
+      <div class="card" data-desc="Aplicación de flúor para prevenir caries y fortalecer el esmalte.">Aplicación de Flúor</div>
+      <div class="card" data-desc="Revisión general para identificar posibles problemas dentales y dar orientación.">Revisión General</div>
+      <div class="card" data-desc="Enseñanza de técnicas de cepillado y cuidados de higiene oral.">Orientación de Higiene Oral</div>
+      <div class="card" data-desc="Evaluación y tratamiento inicial de enfermedades periodontales, inflamación y encías sensibles.">Periodontitis</div>
+    </div>
+    <div id="service-desc" class="service-desc"></div>
+  </section>
+
+  <!-- Agendar Cita -->
+  <section id="cita" class="appointment">
+    <h2>Agendar Cita</h2>
+    <form id="formCita">
+      <input type="text" id="nombre" placeholder="Nombre completo" required>
+      <input type="number" id="edad" placeholder="Edad" required>
+      <input type="text" id="motivo" placeholder="Motivo de consulta" required>
+      <input type="email" id="correo" placeholder="Correo electrónico" required>
+      <input type="date" id="fecha" required>
+      <button type="submit" class="btn">Enviar</button>
+      <div id="alerta" class="alerta"></div>
+    </form>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contact">
+    <h2>Contacto</h2>
+    <a href="https://www.instagram.com/odontoaloo?utm_source=ig_web_button_share_sheet&igsh=ZTc3MGZidXFiZnh3" target="_blank" class="btn insta-btn">Instagram</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Alondra Oceguera Aispuro - Derechos Reservados</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
